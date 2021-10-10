@@ -25,27 +25,31 @@ Brief, non-definitive performance comparisons:
 ```
   (missing/heterozygous: 14, overlap: 8, file: assignment/h1000):
     ip3.py:
-      real	0m51.663s
-      user	0m51.350s
-      sys	  0m0.624s
+      real  0m51.663s
+      user  0m51.350s
+      sys   0m0.624s
     ip5.cpp (single-threaded):
-      real	0m3.313s
-      user	0m3.304s
-      sys	0m0.009s
+      real  0m3.313s
+      user  0m3.304s
+      sys   0m0.009s
     ip6.cpp (single-threaded):
-      real	0m2.966s
-      user	0m2.953s
-      sys	0m0.012s
+      real  0m2.966s
+      user  0m2.953s
+      sys   0m0.012s
 
   (missing/heterozygous: 14, overlap: 8, file: assignment/example_data_1):
+    ip3.py:
+      real  37m22.822s
+      user  37m7.940s
+      sys   0m19.197s
     ip5.cpp (8 threads):
-      real	1m23.682s
-      user	10m38.838s
-      sys	0m0.480s
+      real  1m23.682s
+      user  10m38.838s
+      sys   0m0.480s
     ip6.cpp (8 threads):
-      real	1m19.145s
-      user	10m10.054s
-      sys	0m0.212s
+      real  1m19.145s
+      user  10m10.054s
+      sys   0m0.212s
 ```
 
 Accuracy comparisons for various hyperparameters:
